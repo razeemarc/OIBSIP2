@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  
+<ul>
+  <a href="#home_section">HOME</a>
+  <a href="#about_section">ABOUT</a>
+  <a href="#skill_section">SKILLS</a>
+  <a href="#contact_section">CONTACT</a>
+  <button type="button" onclick="myFunction()" >change<br>mode</button>
+  <script>
+    function myFunction() {                              
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+    }
+
+  </script>
+</ul>
+</nav>
+<section id="home_section">
+  <div class="home">
+    <div class="home-content">
+    <img src="images.jfif" alt="">
+      <div class="home-content__img">                  
+        <h2> Hi There,I'm Razeema</h2><br>
+        <h3>This is my  portfolio,<br>I am a Front-end Developer </h3>
+      </div>
+     </div>
+  </div>
+</section>
+    <!--about-->
+<section id = "about_section">
+  <div class="about">
+    <div class="about_section">
+    <h1>Hello,<br>it's Razeema here<br> </h1>
+    <span>I am an IT student with great passion for software development.<br> I am not only self motivated with outstanding time management but also <br>able to analyse your needs more over good communication skill and ability to<br> work independantly both with minimal <supervision as well as in the team make me <br>a perfect match for hiring.</span>
+    </div>
+  </div>
+</section>
+     <!--Skill-->
+<section id = "skill_section">
+<div class="sk">
+  <div class="skills">
+  <h1>SKILLS</h>
+  <div class="skill">
+    <div class="skill-name">HTML</div>
+    <div class="skill-bar">
+      <div class="skill-per" per="90%" style="max-width:90%"></div>
+    </div>
+</div>
+
+  <div class="skill">
+    <div class="skill-name">CSS</div>
+    <div class="skill-bar">
+      <div class="skill-per" per="70%" style="max-width:70%"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <div class="skill-name">Javascript</div>
+    <div class="skill-bar">
+      <div class="skill-per" per="60%" style="max-width:60%"></div>
+    </div>
+  </div>
+</div>
+</section>
+
+              <!--contact-->
+<section id="contact_section">
+  <div class="contact">
+    <div class = "contact_section">
+      <h1>Contact</h1>
+      <a href="https://mail.google.com">
+      <img src="email.png" alt="mail" height="50px" width="50px" ></a>
+      <a href="https://www.linkedin.com/in/razeema-r-c-6a7316209">
+      <img src="linkedin.png" alt="Linkedin" height="50px" width="50px" ></a>
+      <a href="https://www.instagram.com/invites/contact/?i=703lg5dlz8fd&utm_content=7ro4vyn">
+      <img src="instagram (1).png" alt="instagram" height="50px" width="50px" ></a>
+      <a href="https://github.com/razeemarc">
+      <img src="github.png" alt="github" height="50px" width="50px" ></a>
+    </div>
+   </div>
+</section>
+</body>
+</html>

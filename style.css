@@ -1,0 +1,161 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background-color: #1F2833;  
+}
+#home_section,#about_section,#skill_section,#contact_section{
+  height: 130vh;
+  
+}
+
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  
+  
+  padding: 30px;
+}
+a{
+  columns: white;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration:none;
+  padding: 10px 20px;
+  background-color:#66fCf1;
+  border-radius: 5px;
+  font-size: 15px;
+  transition: 400ms;
+}
+
+nav a:hover{
+  background-color: #282828;
+
+}
+
+
+
+a.hover{
+  box-shadow: 0 0 2px 2px rgb(145, 255, 0);
+}
+.home-content,.about_section,.contact_section{
+  height: 60%;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #1F2833;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #45a29E ,-10px -10px 20px #45a29E; 
+ 
+}
+.skills{
+  height: 60%;
+  width: 90%;;
+  padding: 0 200px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #45a29E ,-10px -10px 20px #45a29E; 
+ 
+}
+.home,.about,.contact,.sk{
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.home-content__img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  font-size: 35px;
+  color: #66fCf1;
+  filter: grayscale(80%);
+}
+ h1{
+    color: #66fCf1;
+    font-size: 35px;
+    text-align: center;
+}
+h3{
+  color: #45a29E;
+  font-size: 20px;
+  text-align: center;
+}
+
+div span  {
+    color: #C5C6C7;
+    font-size: 20px;
+  }
+              /*Skill*/
+*{
+    box-sizing: border-box;
+}
+.skill-name{
+  font-size: 18px;
+  font-weight: 700;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+ .skill-bar{
+  height: 14px;
+  background: #282828;
+  border-radius: 3px;
+}
+.skill-per{
+  height: 14px;
+  background: #66fCf1;
+  border-radius: 3px;
+  position: relative;
+  animation: fillBars 2.5s 1;
+}
+.skill-per::before{
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background: #f1f1f1;
+  border-radius: 4px;
+  font-size: 12px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+ }
+.skill-per::after{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #f1f1f1;
+  top: -20px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}
+ @keyframes fillBars{
+    from{
+         width: 0;
+       }
+   to{
+        width: 100%;
+     }
+}
+            /*works*/
+.left {
+  float: left;
+   
+}
+.right {
+ float: right; 
+}
+        
+            /*Script*/
+.dark-mode {
+  background-color: #C5C6C7; 
+  }
+
+  
